@@ -1,0 +1,32 @@
+{
+  "name": "dmdassc-game-phaserthreejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "nodemon src/server/index.ts",
+    "client": "webpack --config webpack.config.js --watch"
+  },
+  "author": "Danilo",
+  "license": "ISC",
+  "dependencies": {
+    "@enable3d/phaser-extension": "^0.25.2",
+    "@types/matter-js": "0.17.6",
+    "@types/three": "0.141.0",
+    "enable3d": "^0.25.2",
+    "express": "^4.18.1",
+    "matter-js": "0.17.1",
+    "os-utils": "^0.0.14",
+    "phaser": "^3.55.2",
+    "poly-decomp": "^0.3.0",
+    "socket.io": "^4.5.2",
+    "three": "0.141.0",
+    "three-csg-ts": "^3.1.10",
+    "ts-loader": "^9.3.1",
+    "typescript": "^4.8.2",
+    "webpack": "^5.74.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.10.0"
+  }
+}
